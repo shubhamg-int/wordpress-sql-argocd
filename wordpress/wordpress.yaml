@@ -27,7 +27,7 @@ spec:
           valueFrom:
             secretKeyRef: 
               name: sql-secret
-              key: mysql-user
+              key: username
         - name: WORDPRESS_DB_PASSWORD
           valueFrom:
             secretKeyRef:
