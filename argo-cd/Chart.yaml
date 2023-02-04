@@ -1,9 +1,9 @@
 annotations:
   artifacthub.io/changes: |
-    - kind: fixed
-      description: Align changelog structure to show changelogs on Artifact Hub
+    - kind: changed
+      description: Update Argo CD to v2.5.10
 apiVersion: v2
-appVersion: v2.5.9
+appVersion: v2.5.10
 dependencies:
 - condition: redis-ha.enabled
   name: redis-ha
@@ -25,4 +25,4 @@ name: argo-cd
 sources:
 - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
 - https://github.com/argoproj/argo-cd
-version: 5.19.12
+version: 5.19.14
