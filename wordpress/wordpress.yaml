@@ -32,7 +32,7 @@ spec:
           valueFrom:
             secretKeyRef:
               name: sql-secret
-              key: password
+              key: mysql-password
         ports:
         - containerPort: 80
           name: wordpress
