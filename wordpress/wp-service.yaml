@@ -5,11 +5,10 @@ metadata:
   labels:
   app: wordpress
 spec:
-  type: ClusterIP
+  type: LoadBalancer
   selector:
     app: wordpress
     tier: frontend
-  # type: LoadBalancer
   ports:
   - port: 80
     name: wordpress
