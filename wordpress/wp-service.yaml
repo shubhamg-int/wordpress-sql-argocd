@@ -6,7 +6,6 @@ spec:
   type: LoadBalancer
   selector:
     app: wordpress
-    tier: frontend
   ports:
   - port: 80
     name: wordpress
