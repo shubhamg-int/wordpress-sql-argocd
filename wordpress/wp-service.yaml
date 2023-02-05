@@ -6,6 +6,7 @@ spec:
   type: ClusterIP
   selector:
     app: wordpress
+    tier: frontend
   ports:
   - port: 80
     name: wordpress
